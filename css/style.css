@@ -1,0 +1,72 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #181A1B;
+  color: #65CE65;
+}
+
+.container {
+  margin: 0 auto;
+  width: 760px;
+}
+
+ul {
+  list-style: square;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu-skills {
+  list-style: none;
+}
+
+.menu-skills li {
+  letter-spacing: .1rem;
+}
+
+.menu-skills li a{
+  color: #FFF;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.profile-picture {
+  border-radius: 25%;
+  margin-left: 240px;
+}
+
+.text-white {
+  color: #FFF;
+}
+
+.social-networks {
+  margin: 0 270px;
+}
+
+.button {
+  width: 70px;
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 8%;
+
+  color: #FFF;
+  background-color: #218721;
+}
+
+.button:hover {
+  color: #218721;
+  background-color: #FFF;
+}
+
+.item-soft-skills {
+  font-size: 1.2rem;
+}
+
+.item-hard-skills {
+  font-size: 1.1rem;
+}
