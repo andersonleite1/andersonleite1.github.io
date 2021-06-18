@@ -4,41 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Anderson Leite</title>
 </head>
 <body>
-    <ul>
-        <li><a href="#soft-skills">Soft Skills</a></li>
-        <li><a href="#hard-skills">Hard Skills</a></li>
-    </ul>
-   <h1>Anderson Leite</h1> 
-   <img src="./images/profile-picture.jpg" alt="Foto Anderson" width="300px">
-    <br><br>
-    <a href="https://www.linkedin.com/in/andersonleitedev/" target="_blank">LinkedIn</a>
-    <a href="https://github.com/andersonleite1" target="_blank">GitHub</a>
-
-   <p>
-    Adoro trabalhar com tecnologia, sou apaixonado por <strong>Desenvolvimento Web</strong>. Estudo <strong>Desenvolvimento Web</strong> 
-    na <strong>Trybe</strong> e faço uma graduação em <i>Sistemas de informação</i> pelo <strong>Instituto Federal da Bahia - IFBA</strong>. 
-    Atualmente mora na cidade de Vitória da Conquista interior da Bahia.
-   </p>
-
-   <h2 id="soft-skills">Minhas habilidades Soft Skills que me orgulho</h2>
-   <ul>
-       <li>Empatia</li>
-       <li>Colaboração</li>
-       <li>Organização</li>
-       <li>Capacidade de resolver problemas</li>
-       <li>Pensamento criativo</li>
-    </ul>
-
-    <h2 id="hard-skills">Minhas habilidades Hard Skills</h2>
-    <ul>
-        <li>Git & GitHub</li>
-        <li>Terminal linux</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
+    <div class="container">
+        <ul class="menu-skills">
+            <li><a href="#soft-skills">Soft Skills</a></li>
+            <li><a href="#hard-skills">Hard Skills</a></li>
+        </ul>
+       <h1 class="title">&lt;Anderson Leite/&gt;</h1> 
+       <img class="profile-picture" src="./images/profile-picture.jpg" alt="Foto Anderson" width="300px">
+       <div class="social-networks">
+            <a class="button" href="https://www.linkedin.com/in/andersonleitedev/" target="_blank">LinkedIn</a>
+            <a class="button" href="https://github.com/andersonleite1" target="_blank">GitHub</a>
+       </div>
+        
+    
+       <p>
+        Adoro trabalhar com tecnologia, sou apaixonado por <strong class="text-white">Desenvolvimento Web</strong>. Estudo <strong class="text-white">Desenvolvimento Web</strong> 
+        na <strong class="text-white">Trybe</strong> e faço uma graduação em <i class="text-white">Sistemas de informação</i> pelo <strong class="text-white">Instituto Federal da Bahia - IFBA</strong>. 
+        Atualmente mora na cidade de <em class="text-white">Vitória da Conquista</em> interior da <em class="text-white">Bahia</em>.
+       </p>
+    
+       <h2 id="soft-skills">Minhas habilidades Soft Skills que me orgulho</h2>
+       <ul>
+           <li class="item-soft-skills">Empatia</li>
+           <li class="item-soft-skills">Colaboração</li>
+           <li class="item-soft-skills">Organização</li>
+           <li class="item-soft-skills">Capacidade de resolver problemas</li>
+           <li class="item-soft-skills">Pensamento criativo</li>
+        </ul>
+    
+        <h2 id="hard-skills">Minhas habilidades Hard Skills</h2>
+        <ul>
+            <li class="item-hard-skills">Git & GitHub</li>
+            <li class="item-hard-skills">Terminal linux</li>
+            <li class="item-hard-skills">HTML</li>
+            <li class="item-hard-skills">CSS</li>
+        </ul>
+    </div>
 </body>
 </html>
